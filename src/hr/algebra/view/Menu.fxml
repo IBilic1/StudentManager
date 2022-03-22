@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<MenuBar layoutY="2.0" prefHeight="26.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.controller.MenuController">
+    <menus>
+        <Menu mnemonicParsing="false" text="Student manager">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#showStudents" text="Students" />
+                <MenuItem mnemonicParsing="false" onAction="#showCourses" text="Courses" />
+            </items>
+        </Menu>
+    </menus>
+</MenuBar>
